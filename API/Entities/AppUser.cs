@@ -4,12 +4,13 @@ namespace API.Entities
     {
         public int Id { get; set;}
         public string Username { get; set; }
-        private int myVar;
-        public int MyProperty
-        {
-            get { return myVar; }
-            set { myVar = value; }
-        }
-        
+        // private int myVar;
+        // public int MyProperty
+        // {
+        //     get { return myVar; }
+        //     set { myVar = value; }
+        // }
+        public byte[] PasswordHash {get; set;}
+        public byte[] PasswordSalt {get; set;}
     }
 }
