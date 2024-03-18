@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\DatingApp\\API\\API.csproj": {}
+    "C:\\DatingApp\\Vncloud-datingapp\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\DatingApp\\API\\API.csproj": {
+    "C:\\DatingApp\\Vncloud-datingapp\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\DatingApp\\API\\API.csproj",
+        "projectUniqueName": "C:\\DatingApp\\Vncloud-datingapp\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\DatingApp\\API\\API.csproj",
+        "projectPath": "C:\\DatingApp\\Vncloud-datingapp\\API\\API.csproj",
         "packagesPath": "C:\\Users\\ROG\\.nuget\\packages\\",
-        "outputPath": "C:\\DatingApp\\API\\obj\\",
+        "outputPath": "C:\\DatingApp\\Vncloud-datingapp\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ROG\\AppData\\Roaming\\NuGet\\NuGet.Config"
