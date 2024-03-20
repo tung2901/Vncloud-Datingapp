@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\DatingApp\\Vncloud-Datingapp\\API\\API.csproj": {}
+    "c:\\DatingApp\\Vncloud-Datingapp\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\DatingApp\\Vncloud-Datingapp\\API\\API.csproj": {
+    "c:\\DatingApp\\Vncloud-Datingapp\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\DatingApp\\Vncloud-Datingapp\\API\\API.csproj",
+        "projectUniqueName": "c:\\DatingApp\\Vncloud-Datingapp\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\DatingApp\\Vncloud-Datingapp\\API\\API.csproj",
+        "projectPath": "c:\\DatingApp\\Vncloud-Datingapp\\API\\API.csproj",
         "packagesPath": "C:\\Users\\ROG\\.nuget\\packages\\",
-        "outputPath": "C:\\DatingApp\\Vncloud-Datingapp\\API\\obj\\",
+        "outputPath": "c:\\DatingApp\\Vncloud-Datingapp\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ROG\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -51,6 +51,10 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[5.6.3, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[7.0.0, )"
             }
           },
           "imports": [
