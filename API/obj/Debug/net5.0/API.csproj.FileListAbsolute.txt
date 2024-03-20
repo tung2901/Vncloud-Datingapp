@@ -108,3 +108,8 @@ C:\DatingApp\Vncloud-datingapp\API\obj\Debug\net5.0\API.dll
 C:\DatingApp\Vncloud-datingapp\API\obj\Debug\net5.0\ref\API.dll
 C:\DatingApp\Vncloud-datingapp\API\obj\Debug\net5.0\API.pdb
 C:\DatingApp\Vncloud-datingapp\API\obj\Debug\net5.0\API.genruntimeconfig.cache
+C:\DatingApp\Vncloud-Datingapp\API\bin\Debug\net5.0\Microsoft.IdentityModel.Abstractions.dll
+C:\DatingApp\Vncloud-Datingapp\API\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\DatingApp\Vncloud-Datingapp\API\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\DatingApp\Vncloud-Datingapp\API\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\DatingApp\Vncloud-Datingapp\API\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
