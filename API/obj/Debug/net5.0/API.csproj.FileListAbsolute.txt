@@ -113,3 +113,7 @@ C:\DatingApp\Vncloud-Datingapp\API\bin\Debug\net5.0\Microsoft.IdentityModel.Json
 C:\DatingApp\Vncloud-Datingapp\API\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
 C:\DatingApp\Vncloud-Datingapp\API\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
 C:\DatingApp\Vncloud-Datingapp\API\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\DatingApp\Vncloud-Datingapp\API\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\DatingApp\Vncloud-Datingapp\API\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\DatingApp\Vncloud-Datingapp\API\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\DatingApp\Vncloud-Datingapp\API\bin\Debug\net5.0\Newtonsoft.Json.dll
