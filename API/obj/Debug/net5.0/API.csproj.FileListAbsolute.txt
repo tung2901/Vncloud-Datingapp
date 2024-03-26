@@ -60,7 +60,6 @@ C:\DatingApp\Vncloud-datingapp\API\bin\Debug\net5.0\API.deps.json
 C:\DatingApp\Vncloud-datingapp\API\bin\Debug\net5.0\API.runtimeconfig.json
 C:\DatingApp\Vncloud-datingapp\API\bin\Debug\net5.0\API.runtimeconfig.dev.json
 C:\DatingApp\Vncloud-datingapp\API\bin\Debug\net5.0\API.dll
-C:\DatingApp\Vncloud-datingapp\API\bin\Debug\net5.0\ref\API.dll
 C:\DatingApp\Vncloud-datingapp\API\bin\Debug\net5.0\API.pdb
 C:\DatingApp\Vncloud-datingapp\API\bin\Debug\net5.0\Humanizer.dll
 C:\DatingApp\Vncloud-datingapp\API\bin\Debug\net5.0\Microsoft.Data.Sqlite.dll
@@ -100,10 +99,8 @@ C:\DatingApp\Vncloud-datingapp\API\obj\Debug\net5.0\API.csproj.CoreCompileInputs
 C:\DatingApp\Vncloud-datingapp\API\obj\Debug\net5.0\API.MvcApplicationPartsAssemblyInfo.cs
 C:\DatingApp\Vncloud-datingapp\API\obj\Debug\net5.0\API.MvcApplicationPartsAssemblyInfo.cache
 C:\DatingApp\Vncloud-datingapp\API\obj\Debug\net5.0\staticwebassets\API.StaticWebAssets.Manifest.cache
-C:\DatingApp\Vncloud-datingapp\API\obj\Debug\net5.0\staticwebassets\API.StaticWebAssets.xml
 C:\DatingApp\Vncloud-datingapp\API\obj\Debug\net5.0\scopedcss\bundle\API.styles.css
 C:\DatingApp\Vncloud-datingapp\API\obj\Debug\net5.0\API.RazorTargetAssemblyInfo.cache
-C:\DatingApp\Vncloud-datingapp\API\obj\Debug\net5.0\API.csproj.CopyComplete
 C:\DatingApp\Vncloud-datingapp\API\obj\Debug\net5.0\API.dll
 C:\DatingApp\Vncloud-datingapp\API\obj\Debug\net5.0\ref\API.dll
 C:\DatingApp\Vncloud-datingapp\API\obj\Debug\net5.0\API.pdb
@@ -117,3 +114,12 @@ C:\DatingApp\Vncloud-Datingapp\API\bin\Debug\net5.0\Microsoft.AspNetCore.Authent
 C:\DatingApp\Vncloud-Datingapp\API\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
 C:\DatingApp\Vncloud-Datingapp\API\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\DatingApp\Vncloud-Datingapp\API\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\DatingApp\Vncloud-Datingapp\API\bin\Debug\net5.0\API.StaticWebAssets.xml
+C:\DatingApp\Vncloud-Datingapp\API\obj\Debug\net5.0\API.sourcelink.json
+C:\DatingApp\Vncloud-Datingapp\API\obj\Debug\net5.0\staticwebassets\API.StaticWebAssets.Pack.cache
+C:\DatingApp\Vncloud-Datingapp\API\obj\Debug\net5.0\staticwebassets\msbuild.API.Microsoft.AspNetCore.StaticWebAssets.props
+C:\DatingApp\Vncloud-Datingapp\API\obj\Debug\net5.0\staticwebassets\msbuild.build.API.props
+C:\DatingApp\Vncloud-Datingapp\API\obj\Debug\net5.0\staticwebassets\msbuild.buildMultiTargeting.API.props
+C:\DatingApp\Vncloud-Datingapp\API\obj\Debug\net5.0\staticwebassets\msbuild.buildTransitive.API.props
+C:\DatingApp\Vncloud-Datingapp\API\obj\Debug\net5.0\API.csproj.Up2Date
+C:\DatingApp\Vncloud-Datingapp\API\obj\Debug\net5.0\refint\API.dll
