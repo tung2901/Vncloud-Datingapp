@@ -114,7 +114,6 @@ C:\DatingApp\Vncloud-Datingapp\API\bin\Debug\net5.0\Microsoft.AspNetCore.Authent
 C:\DatingApp\Vncloud-Datingapp\API\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
 C:\DatingApp\Vncloud-Datingapp\API\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\DatingApp\Vncloud-Datingapp\API\bin\Debug\net5.0\Newtonsoft.Json.dll
-C:\DatingApp\Vncloud-Datingapp\API\bin\Debug\net5.0\API.StaticWebAssets.xml
 C:\DatingApp\Vncloud-Datingapp\API\obj\Debug\net5.0\API.sourcelink.json
 C:\DatingApp\Vncloud-Datingapp\API\obj\Debug\net5.0\staticwebassets\API.StaticWebAssets.Pack.cache
 C:\DatingApp\Vncloud-Datingapp\API\obj\Debug\net5.0\staticwebassets\msbuild.API.Microsoft.AspNetCore.StaticWebAssets.props

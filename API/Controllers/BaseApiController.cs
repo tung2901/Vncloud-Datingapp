@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace API.Controllers
 {
     // [ServiceFilter(typeof(LogUserActivity))]
-    [Route("api/[controller]")]
+    [Route("API/[controller]")]
     [ApiController]
     public class BaseApiController: ControllerBase
     {

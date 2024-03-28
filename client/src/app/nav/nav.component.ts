@@ -16,17 +16,16 @@ export class NavComponent implements OnInit {
   }
 
   login() {
-   
-    this.accountService.login(this.model).subscribe(response => {
-      console.log(response + "meo");
-      this.loggedIn = true;
-    }, error => {
-      console.log(error);   
-    })
+    this.accountService.login(this.model).subscribe(
+      (response: any) => {
+        console.log(response); // In ra dữ liệu trả về từ yêu cầu HTTP
+        this.loggedIn = true;
+      }, 
+      (error: any) => {
+        console.log(error); // In ra thông tin lỗi nếu có
+      }
+    );
   }
-
-  logout() {
-    this.loggedIn =false;
-  }
+  
 
 }
