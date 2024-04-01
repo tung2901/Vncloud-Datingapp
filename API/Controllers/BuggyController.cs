@@ -27,23 +27,23 @@ namespace API.Controllers
             return Ok(thing);
         }
         [HttpGet("server-error")]
-        // public ActionResult<string> GetServerError()
-        // {
-        //     // try
-        //     // {
-        //     //     var thing = _context.Users.Find(-1);
+        public ActionResult<string> GetServerError()
+        {
+            try
+            {
+                var thing = _context.Users.Find(-1);
 
-        //     //     var thingToReturn = thing.ToString();
+                var thingToReturn = thing.ToString();
 
-        //     //     return thingToReturn;
-        //     // }
-        //     // catch (Exception ex)
-        //     // {
-        //     //     return StatusCode(500, "Computer says no!");
-        //     // }
+                return thingToReturn;
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, "Computer says no!");
+            }
 
 
-        // }
+        }
         [HttpGet("bad-request")]
         public ActionResult<string> GetBadRequest()
         {
