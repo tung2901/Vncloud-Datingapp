@@ -41,8 +41,6 @@ namespace API.Controllers
             {
                 return StatusCode(500, "Computer says no!");
             }
-
-
         }
         [HttpGet("bad-request")]
         public ActionResult<string> GetBadRequest()
