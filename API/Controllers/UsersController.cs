@@ -17,6 +17,7 @@ namespace API.Controllers
     {
         private readonly IUserRepository _userRepository;
         private readonly IMapper _mapper;
+        private object usersToReturn;
 
         public UsersController(IUserRepository userRepository, IMapper mapper) 
         {
@@ -32,7 +33,7 @@ namespace API.Controllers
 
             var userToReturn = _mapper.Map<IEnumerable<MemberDto>>(users);
 
-            return Ok();
+            return Ok(usersToReturn);
         }
         
       
