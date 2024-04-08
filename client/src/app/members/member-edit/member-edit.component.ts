@@ -1,4 +1,4 @@
-import { Component,HostListener, OnInit,ViewChild } from '@angular/core';
+import { Component, HostListener, OnInit, ViewChild } from '@angular/core';
 import { Member } from 'src/app/_models/member';
 import { User } from 'src/app/_models/user';
 import { AccountService } from 'src/app/_services/account.service';
@@ -42,6 +42,6 @@ export class MemberEditComponent implements OnInit {
       this.toast.success('Profile updated successfully');
       this.editForm.reset(this.member);
     })
-   
+
   }
 }
