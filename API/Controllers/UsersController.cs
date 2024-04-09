@@ -20,7 +20,6 @@ namespace API.Controllers
    {
       private readonly IUserRepository _userRepository;
       private readonly IMapper _mapper;
-      // private object usersToReturn;
       private readonly IPhotoService _photoService;
 
       public UsersController(IUserRepository userRepository, IMapper mapper,
