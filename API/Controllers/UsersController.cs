@@ -30,7 +30,7 @@ namespace API.Controllers
          _userRepository = userRepository;
       }
 
-      //api/user/3
+
       [HttpGet]
       public async Task<ActionResult<IEnumerable<MemberDto>>> GetUsers()
       {
@@ -84,7 +84,7 @@ namespace API.Controllers
 
          if (await _userRepository.SaveAllAsync())
          {
-               return CreatedAtRoute("GetUser", new{Username = user.UserName}, _mapper.Map<PhotoDto>(photo));
+               return CreatedAtRoute("GetUser", new{username = user.UserName}, _mapper.Map<PhotoDto>(photo));
          }
          
 
