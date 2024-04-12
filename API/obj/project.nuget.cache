@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "22xFJ9jQ2SNmMGsfCtj56mHMTGHzQ/59kZfrSw4dRgRCT/hfNwjyRjwCpxsSGr5g6UJmIr5Agh1/iF826+u3EQ==",
+  "dgSpecHash": "yTBQ5PnkIoC7ueyINNHMXPKIQ8gZaUOJCy8CG2xGh4P3O8WefTxB/0QMna7t9bwHH8P9hpdLEFWf7do7IpwKcg==",
   "success": true,
-  "projectFilePath": "c:\\DatingApp\\Vncloud-Datingapp\\API\\API.csproj",
+  "projectFilePath": "C:\\DatingApp\\Vncloud-Datingapp\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ROG\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\ROG\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
