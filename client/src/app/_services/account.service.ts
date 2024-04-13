@@ -10,19 +10,17 @@ import { environment } from 'src/environments/environment';
 })
 export class AccountService {
   baseUrl = environment.apiUrl;
-  private currenUserSource = new ReplaySubject<User>(1);
+  private currentUserSource = new ReplaySubject<User>(1);
   constructor(private http: HttpClient) { }
-  currentUser$ = this.currenUserSource.asObservable();
+  currentUser$ = this.currentUserSource.asObservable();
 
   login(model: any) {
     return this.http.post(this.baseUrl + 'account/login', model).pipe(
       map((response: User) => {
         const user = response;
         if (user) {
-          localStorage.setItem('user', JSON.stringify(user));
-          this.currenUserSource.next(user);
+       this.setCurrentUser(user);
         }
-      
       })
     )
   }
@@ -31,19 +29,19 @@ export class AccountService {
     return this.http.post(this.baseUrl + 'account/register', model).pipe(
       map((user: User) => {
         if (user) {
-          localStorage.setItem('user', JSON.stringify(user));
-          this.currenUserSource.next(user);
+         this.setCurrentUser(user);
         }
       })
     )
   }
 
   setCurrentUser(user: User) {
-    this.currenUserSource.next(user);
+    localStorage.setItem('user', JSON.stringify(user));
+    this.currentUserSource.next(user);
   }
 
   logout() {
     localStorage.removeItem('user');
-    this.currenUserSource.next(null);
+    this.currentUserSource.next(null);
   }
 }
