@@ -4,14 +4,14 @@
 
         <ul class="navbar-nav mr-auto">
             <ng-container *ngIf="accountService.currentUser$ | async">
-                <li class="nav-item ">
-                    <a class="nav-link " routerLink='/members' routerLinkActive='active'>Matches</a>
+                <li class="nav-item">
+                    <a class="nav-link" routerLink='/members' routerLinkActive='active'>Matches</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" routerLink='/lists' routerLinkActive='active'>Lists</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link " routerLink='/messages' routerLinkActive='active'>Messages</a>
+                    <a class="nav-link" routerLink='/messages' routerLinkActive='active'>Messages</a>
                 </li>
             </ng-container>
             <li class="nav-item">
@@ -20,7 +20,7 @@
         </ul>
 
         <div class="dropdown" *ngIf="(accountService.currentUser$ | async) as user" dropdown>
-            <img src="{{user.photoUrl}}" alt="{{user.username}}">
+            <img src="{{user.photoUrl || '.asset/user.png'}}" alt="{{user.username}}">
             <a class="dropdown-toggle text-light ml-2" dropdownToggle>Welcome {{user.username | titlecase}}</a>
             <div class="dropdown-menu mt-3" *dropdownMenu>
                 <a class="dropdown-item" routerLink="/member/edit">Edit Profile</a>
@@ -37,6 +37,6 @@
                 placeholder="Password">
             <button class="btn btn-success my-2 my-sm-0" type="submit">Login</button>
         </form>
-    </div>
+    </div> 
 
 </nav>

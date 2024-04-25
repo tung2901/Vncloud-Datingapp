@@ -1,29 +1,30 @@
-using API.Errors;
-using Microsoft.AspNetCore.Http;
-using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Text.Json;
 using System.Threading.Tasks;
+using API.Errors;
+using Microsoft.AspNetCore.Http;
+using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Logging;
 
 namespace API.Middleware
 {
     public class ExceptionMiddleware
     {
         private readonly RequestDelegate _next;
-        private readonly IHostEnvironment _env;
         private readonly ILogger<ExceptionMiddleware> _logger;
-
-        public ExceptionMiddleware(RequestDelegate next, ILogger<ExceptionMiddleware> logger, IHostEnvironment env)
+        private readonly IHostEnvironment _env;
+        
+        public ExceptionMiddleware(RequestDelegate next, ILogger<ExceptionMiddleware> logger, 
+            IHostEnvironment env)
         {
-            _next = next;
             _env = env;
             _logger = logger;
+            _next = next;
         }
-
+        
         public async Task InvokeAsync(HttpContext context)
         {
             try
@@ -40,7 +41,7 @@ namespace API.Middleware
                     ? new ApiException(context.Response.StatusCode, ex.Message, ex.StackTrace?.ToString())
                     : new ApiException(context.Response.StatusCode, "Internal Server Error");
 
-                var options = new JsonSerializerOptions {PropertyNamingPolicy = JsonNamingPolicy.CamelCase };
+                var options = new JsonSerializerOptions{PropertyNamingPolicy = JsonNamingPolicy.CamelCase};
 
                 var json = JsonSerializer.Serialize(response, options);
 

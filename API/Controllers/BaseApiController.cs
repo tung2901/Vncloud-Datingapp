@@ -1,4 +1,5 @@
-// using API.Helpers;
+
+using API.Helpers;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -8,7 +9,7 @@ using System.Threading.Tasks;
 namespace API.Controllers
 {
     // [ServiceFilter(typeof(LogUserActivity))]
-    [Route("API/[controller]")]
+    [Route("api/[controller]")]
     [ApiController]
     public class BaseApiController: ControllerBase
     {
