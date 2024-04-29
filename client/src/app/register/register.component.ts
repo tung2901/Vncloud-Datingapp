@@ -12,7 +12,6 @@ import { Router } from '@angular/router';
 })
 export class RegisterComponent implements OnInit {
   @Output() cancelRegister = new EventEmitter();
-  
   registerForm: FormGroup;
   maxDate: Date;
   validationErrors: string[] = [];

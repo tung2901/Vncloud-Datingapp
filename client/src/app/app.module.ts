@@ -22,9 +22,10 @@ import { JwtInterceptor } from './_interceptors/jwt.interceptor';
 import { MemberEditComponent } from './members/member-edit/member-edit.component';
 import {NgxSpinnerModule } from 'ngx-spinner';
 import { LoadingInterceptor } from './_interceptors/loading.interceptor';
-import { TestInputComponent } from './_forms/test-input/test-input.component';
 import { DateInputComponent } from './_forms/date-input/date-input.component';
 import { PhotoEditorComponent } from './photo-editor/photo-editor.component';
+import { TextInputComponent } from './_forms/text-input/text-input.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -40,9 +41,10 @@ import { PhotoEditorComponent } from './photo-editor/photo-editor.component';
     ServerErrorComponent,
     MemberCardComponent,
     MemberEditComponent,
-    TestInputComponent,
     DateInputComponent,
     PhotoEditorComponent,
+    TextInputComponent,
+   
   
   ],
   imports: [
