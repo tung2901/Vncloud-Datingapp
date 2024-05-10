@@ -22,6 +22,7 @@ using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using API.Middleware;
 using API.Helpers;
+using API.SignaIR;
 
 namespace API
 {
@@ -40,6 +41,7 @@ namespace API
             services.AddControllers();
             services.AddCors();
             services.AddIdentityServices(_config);
+            services.AddSignalR();
             // services.AddScoped<LogUserActivity>();
             // services.AddSwaggerGen(c =>
             // {
@@ -58,6 +60,7 @@ namespace API
 
             app.UseCors(x => x.AllowAnyHeader()
             .AllowAnyMethod()
+            .AllowCredentials()
             .WithOrigins("https://localhost:4200"));
 
             app.UseAuthentication();
@@ -67,6 +70,8 @@ namespace API
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
+                endpoints.MapHub<PresenceHub>("hubs/presence");
+                endpoints.MapHub<MessageHub>("hubs/message");
             });
         }
     }
