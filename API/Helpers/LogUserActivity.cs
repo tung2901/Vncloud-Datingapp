@@ -13,7 +13,7 @@ namespace API.Helpers
     {
         public async Task OnActionExecutionAsync(ActionExecutingContext context, ActionExecutionDelegate next)
         {
-           var resultContext = await next();
+            var resultContext = await next();
 
             if (!resultContext.HttpContext.User.Identity.IsAuthenticated) return;
 
@@ -22,6 +22,8 @@ namespace API.Helpers
             var user = await repo.GetUserByIdAsync(userId);
             user.LastActive = DateTime.Now;
             await repo.SaveAllAsync();
-        } 
+
+
+        }
     }
 }
